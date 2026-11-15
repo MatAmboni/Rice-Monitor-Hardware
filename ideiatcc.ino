@@ -4,10 +4,10 @@
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
 
-#define WIFI_SSID "eduroam"
-#define WIFI_PASSWORD "TeteuAmboni985"
-#define API_KEY "AIzaSyBRXV43cCj_6WLfZM4HuVWx8VFfxAIOqmw"
-#define DATABASE_URL "https://tcclora-f6c9d-default-rtdb.firebaseio.com/"
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
+#define API_KEY "YOUR_FIREBASE_API_KEY"
+#define DATABASE_URL "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com/"
 
 FirebaseData fbdo;
 FirebaseAuth auth;

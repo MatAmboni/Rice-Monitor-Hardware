@@ -13,6 +13,9 @@
 const float calibrationFactor = 4.5;
 const float calibration_value = 11.5;
 const int interval = 1000;
+int buffer_arr[10];
+int temp;
+unsigned long int avgval;
 
 volatile byte pulseCount;
 byte pulse1Sec = 0;
@@ -52,6 +55,8 @@ void setup() {
   flowRate = 0.0;
   flowMilliLitres = 0;
   totalMilliLitres = 0;
+  previousMillis = millis();
+  attachInterrupt(digitalPinToInterrupt(SENSOR), pulseCounter, FALLING);
 
   delay(1000);
 }

@@ -1,0 +1,14 @@
+# Arduino IDE and build artifacts
+.arduino/
+arduino_build*/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local firmware configuration
+config.h
+secrets.h
+*.local.h
