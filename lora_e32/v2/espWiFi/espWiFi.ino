@@ -11,10 +11,10 @@
 #include <SoftwareSerial.h>
 #include <Firebase_ESP_Client.h>
 
-#define WIFI_SSID "iPhone de Matheus"
-#define WIFI_PASSWORD "amboni123"
-#define API_KEY "AIzaSyCpHO-Ia8VsKD_Kbo4vKttMhnnqFFRcOek"
-#define DATABASE_URL "https://tccamboni-default-rtdb.firebaseio.com/"
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
+#define API_KEY "YOUR_FIREBASE_API_KEY"
+#define DATABASE_URL "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com/"
 
 FirebaseData fbdo;
 FirebaseData stream;
